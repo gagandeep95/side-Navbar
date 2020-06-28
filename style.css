@@ -1,0 +1,74 @@
+		body{
+			margin:0px!important;
+		}
+		header{
+			float:left;
+			width:20%;
+			height:100%;
+		}
+		#myBtn{
+			display: none;
+			width:60px;
+			height:40px;
+			background-color: #000;
+			color:#fff;
+		}
+
+		#myNav{
+			background-color: orangered;
+			width:300px;
+			height:100%;
+			top:0;
+			overflow:hidden;
+			z-index: 11;
+			transition: 1s;
+			transition-timing-function: ease-out;
+			position: absolute;	
+		}
+		#myNav ul{
+		list-style:  none;
+		}
+		#myNav ul li{
+		padding-top:  30px;
+		}
+		#myNav ul li a{
+		color:#fff;
+		font-size: 30px;
+		}
+
+		#exit {
+			    position: absolute;
+	    		right: 10px;
+	    		float: right;
+	    		padding: 10px;
+	    		top: -10px;
+	    		font-size: 4em;
+	    		color: white;
+	    		font-weight: 500;
+	    		cursor: pointer;
+	    		transition: all 0.25s;
+	    		-webkit-transition: all 0.25s;	
+	    		display:none;
+		}
+
+		main{
+			width:80%;
+			padding:50px;
+			margin-left:100px!important;
+		}
+		main section{
+			margin-left:200px;
+		}
+
+
+		@media screen and (max-width:768px){
+
+		main{
+			padding:0px;
+			margin-left:0px!important;
+		}
+		main section{
+			margin-left:0px;
+		}
+
+		}
