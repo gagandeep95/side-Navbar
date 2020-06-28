@@ -1,4 +1,4 @@
 # side-Navbar
 Simple sideNavBar build with Javascript and css
 
- https://sidenavbar.netlify.app/
+See the demo - https://sidenavbar.netlify.app/
